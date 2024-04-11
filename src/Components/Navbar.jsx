@@ -8,9 +8,9 @@ const Navbar = () => {
         
         <nav className=' flex flex-col md:flex-row w-[90%] md:gap-4 gap-2 mx-auto justify-between'>
                 <img src={Logo} className='h-[50px] w-[190px] mx-auto' alt="" />
-                <div className='bg-[#FBD148] rounded-[50px] w-full max-w-[300px] mx-auto px-4 py-2 flex items-center justify-center'>
+                <div className='bg-[#FBD148] rounded-[50px] w-full max-w-[300px] mx-auto px-4  flex items-center justify-center'>
                     <FaSearch size={30}/>
-                    <input type="text" className='font-bold bg-[#FBD148] text-center' value=" Busca ID de la Placa" />
+                    <input type="text" className='font-bold bg-[#FBD148] rounded-[50px] py-2 h-full w-full text-center' value=" Busca ID de la Placa" />
                 </div>
                 
                 <ul className='flex items-center mx-auto gap-8 text-2xl text'>
