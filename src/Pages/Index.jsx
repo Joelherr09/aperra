@@ -5,7 +5,7 @@ import './css/Index.css'
 
 const Index = () => {
   return (
-    <div className='fondo-aperra h-[100vh] md:mt-[65px] mt-[160px] pt-3'>
+    <div className='fondo-aperra h-[100vh] md:mt-[65px] mt-[130px] pt-6'>
         <Navbar/>
 
         <CuadroLogin/>
